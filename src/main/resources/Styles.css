@@ -1,0 +1,63 @@
+VBoxBoard{
+    -fx-background-color :rgb(52, 120, 36);
+    -fx-font-size: 16;
+  -fx-font-family: Calibri;
+}
+HBoxBoard{
+    -fx-margin: 10px;
+    -fx-margin-insets :10px;
+    -fx-alignment: center;
+}
+
+ColorCard{
+    -fx-border-color: white;
+    -fx-border-width: 3 3 3 3;
+    -fx-min-height: 80;
+    -fx-min-width: 50;
+    -fx-pref-width: 146;
+    -fx-max-width: 150;
+    -fx-pref-height: 198;
+    -fx-max-height: 200;
+}
+
+GridPlayer{
+    -fx-alignment: center;
+    -fx-hgap: 12;
+    -fx-vgap: 12;
+    -fx-padding: 10;
+}
+
+GridCenter{
+    -fx-alignment: center;
+    -fx-hgap: 30;
+    -fx-vgap: 35;
+    -fx-padding: 10;
+}
+PlayerTour{
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-font-family: Calibri;
+}
+
+.carte_bleu{
+ -fx-background-color : rgb(100, 100, 220);
+}
+.carte_jaune{
+ -fx-background-color : rgb(219, 225, 47);
+}
+.carte_rouge{
+ -fx-background-color : rgb(255, 70, 70);
+}
+.carte_gris{
+-fx-background-color : rgb(150, 150, 150);
+}
+.carte_vert{
+ -fx-background-color : rgb(70, 255, 70);
+ }
+
+ImageViewCard{
+    -fx-pref-width: 146;
+    -fx-max-width: 150;
+    -fx-pref-height: 198;
+    -fx-max-height: 200;
+}

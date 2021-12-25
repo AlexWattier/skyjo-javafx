@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: g49707.skyjo.Main
+Class-Path: junit-platform-commons-1.6.0.jar javafx-controls-13-win.jar 
+ javafx-controls-13.jar javafx-base-13.jar junit-jupiter-api-5.6.0.jar a
+ piguardian-api-1.1.0.jar javafx-graphics-13-win.jar javafx-graphics-13.
+ jar javafx-base-13-win.jar opentest4j-1.2.0.jar
+
